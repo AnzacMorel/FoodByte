@@ -36,6 +36,40 @@
     </menu_map>
     <order_map>
         <entry>
+            <key uuid="e35ec180-405d-4917-b1cd-cc034674a517"/>
+            <value uuid="e35ec180-405d-4917-b1cd-cc034674a517">
+                <order_tree>
+                    <dependants>
+                        <order_item>
+                            <item uuid="576cc57f-6f37-40a3-bd6f-3550c0a66ea8"/>
+                            <dependants/>
+                            <quantity>1</quantity>
+                        </order_item>
+                        <order_item>
+                            <item uuid="576cc57f-6f37-40a3-bd6f-3550c0a66ea8"/>
+                            <dependants/>
+                            <quantity>1</quantity>
+                        </order_item>
+                        <order_item>
+                            <item uuid="576cc57f-6f37-40a3-bd6f-3550c0a66ea8"/>
+                            <dependants/>
+                            <quantity>1</quantity>
+                        </order_item>
+                        <order_item>
+                            <item uuid="576cc57f-6f37-40a3-bd6f-3550c0a66ea8"/>
+                            <dependants/>
+                            <quantity>1</quantity>
+                        </order_item>
+                    </dependants>
+                    <quantity>0</quantity>
+                </order_tree>
+                <timestamp>2019-10-23T15:06:12.531+13:00</timestamp>
+                <total_cost cents="1400"/>
+                <isRefunded>false</isRefunded>
+                <is_eftpos>false</is_eftpos>
+            </value>
+        </entry>
+        <entry>
             <key uuid="5a37a4d3-9dd0-4a6c-8760-d04dbd416190"/>
             <value uuid="5a37a4d3-9dd0-4a6c-8760-d04dbd416190">
                 <order_tree>
@@ -96,8 +130,27 @@
                 <hidden>true</hidden>
             </value>
         </entry>
+        <entry>
+            <key uuid="aa43e05f-e522-4228-a7ed-8d910869d2de"/>
+            <value uuid="aa43e05f-e522-4228-a7ed-8d910869d2de">
+                <stock_item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="item" uuid="576cc57f-6f37-40a3-bd6f-3550c0a66ea8">
+                    <name>chips</name>
+                    <description></description>
+                    <base_price cents="100"/>
+                    <markup_price cents="350"/>
+                    <recipe>
+                        <method></method>
+                    </recipe>
+                    <qty_unit>NUM</qty_unit>
+                </stock_item>
+                <date_added>2019-10-23T15:05:47.856+13:00</date_added>
+                <does_expire>false</does_expire>
+                <quantity_remaining>0.0</quantity_remaining>
+                <hidden>true</hidden>
+            </value>
+        </entry>
     </stock_instance_map>
     <cashRegister>
-        <registerAmount cents="2000000000"/>
+        <registerAmount cents="2000001400"/>
     </cashRegister>
 </data>
